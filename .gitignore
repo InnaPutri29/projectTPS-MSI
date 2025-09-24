@@ -1,0 +1,21 @@
+# CodeIgniter 4 .gitignore file
+
+# OS and Editor files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# Composer vendor directory
+/vendor/
+
+# Writable directory contents
+/writable/cache/
+/writable/debugbar/
+/writable/session/
+/writable/uploads/
+
+# Env file (contains sensitive info like database passwords)
+.env
